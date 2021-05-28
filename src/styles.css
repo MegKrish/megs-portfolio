@@ -66,3 +66,8 @@ span {
 .height-500 {
   height: 500px;
 }
+
+/* border-radius */
+.border-radius-50 {
+  border-radius: 50%;
+}

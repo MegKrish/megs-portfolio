@@ -4,7 +4,15 @@ class About extends React.Component {
   render() {
     return (
       <div className="flex">
-        <div className="fiftyPercent">Box one</div>
+        <div className="fiftyPercent">
+          <img
+            src="/images/profile.jpg"
+            alt="profileImage"
+            className="border-radius-50"
+            width="250"
+            height="250"
+          />
+        </div>
 
         <div className="fiftyPercent">
           <h2>Software Engineer</h2>
