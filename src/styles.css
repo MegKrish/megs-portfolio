@@ -1,4 +1,68 @@
-.App {
-  font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
+/* Reset Styles */
+
+body {
+  background-color: #fff4e5;
+  font-size: 1rem;
+  font-family: "Finger Paint", cursive;
+  line-height: 1.6;
+}
+/* TYPOGRAPHY */
+/* Headings */
+h1,
+h2,
+h3,
+p,
+span {
+  font-family: "Finger Paint", cursive;
+}
+
+/* Flex Box Styles */
+
+.flex {
+  display: flex;
+}
+
+/* PAGE PLACEMENT */
+
+.align-vertical-center {
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mobile */
+
+@media (max-width: 675px) {
+  .heroSmTitle {
+    font-size: 2rem;
+  }
+}
+
+/* Desktop and Tablet */
+
+@media (min-width: 0px) {
+  .heroMdTitle {
+    font-size: 3.375rem;
+  }
+}
+
+/* Titles */
+
+.subTitle {
+  font-size: 1.375rem;
+}
+
+/* Text Alignment */
+
+.text-center {
   text-align: center;
+}
+
+/* HEIGHTS */
+
+.height-500 {
+  height: 500px;
 }
