@@ -1,5 +1,5 @@
 import React from "react";
-import AboutSummary from "./Summary";
+import AboutSummary from "./component/Summary";
 
 class About extends React.Component {
   render() {
