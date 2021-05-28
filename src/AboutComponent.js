@@ -1,4 +1,5 @@
 import React from "react";
+import AboutSummary from "./Summary";
 
 class About extends React.Component {
   render() {
@@ -15,12 +16,7 @@ class About extends React.Component {
         </div>
 
         <div className="fiftyPercent">
-          <h2>Software Engineer</h2>
-          <p>
-            Megan has six years of experience in Software development workign
-            with early stage startups, enterprise, and non profit organizations.
-            She has a Bachelor of Arts in Computing from DePaul University.
-          </p>
+          <AboutSummary />
         </div>
       </div>
     );
